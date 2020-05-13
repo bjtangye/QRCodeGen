@@ -2,7 +2,6 @@
 QRCode generator, using libqrencode to make qrcode image
 
 
-二维码知识：
 二维码，从字面上看就是用两个维度（水平方向和垂直方向）来进行数据的编码，条形码只利用了一个维度（水平方向）表示信息，在另一个维度(垂直方向)没有意义，所以二维码比条形码有着更高的数据存储容量。
 
 从形成方式上，二维码可以分为两类：
@@ -14,7 +13,6 @@ QR码分为40个版本，版本1由21x21个方块组成，每个版本增加4个
 版本1的二维码最多可以储存25个字符或41个数字，而版本40的二维码最多可以储存4296个字符或7089个数字
 
 
-libqrencode:
 libqrencode是一个日本人写的生成二维码的可以跨平台的c库, 传送门:https://github.com/fukuchi/libqrencode
 linux 编译步骤：
 1. chmod +x configure
